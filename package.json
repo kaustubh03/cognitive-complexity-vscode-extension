@@ -1,0 +1,60 @@
+{
+  "name": "cognitive-complexity",
+  "version": "0.0.1",
+  "description": "A VSCode extension that calculates the cognitive complexity of a file",
+  "main": "extension.js",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustubh03/cognitive-complexity.git"
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "cognitive-complexity"
+  ],
+  "author": "Kaustubh Saxena",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/kaustubh03/cognitive-complexity/issues"
+  },
+  "homepage": "https://github.com/kaustubh03/cognitive-complexity#readme",
+  "activationEvents": [
+    "onDidOpenTextDocument",
+    "onDidSaveTextDocument"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.checkComplexity",
+        "title": "Check Cognitive Complexity"
+      }
+    ],
+    "keybindings": [
+        {
+            "command": "extension.checkComplexity",
+            "key": "ctrl+alt+0",
+            "mac": "cmd+shift+0"
+        }
+      ],
+    "configuration": {
+      "title": "Cognitive Complexity",
+      "properties": {
+        "cognitiveComplexity.threshold": {
+          "type": "number",
+          "default": 15,
+          "description": "The cognitive complexity score threshold for highlighting functions."
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "cognitive-complexity-ts": "^0.6.5",
+    "vscode": "^1.1.37"
+  }
+}
