@@ -56,5 +56,8 @@
   "dependencies": {
     "cognitive-complexity-ts": "^0.6.5",
     "vscode": "^1.1.37"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.37"
   }
 }
