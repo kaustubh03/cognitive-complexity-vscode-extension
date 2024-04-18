@@ -1,10 +1,10 @@
 {
-  "name": "cognitive-complexity",
+  "name": "cognitive-complexity-checker",
   "version": "0.0.1",
   "description": "A VSCode extension that calculates the cognitive complexity of a file",
   "main": "extension.js",
   "engines": {
-    "vscode": "^1.88.0"
+    "vscode": "^1.80.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,8 @@
   "keywords": [
     "vscode",
     "extension",
-    "cognitive-complexity"
+    "cognitive-complexity",
+    "cognitive-complexity-checker"
   ],
   "author": "Kaustubh Saxena",
   "license": "GPL-3.0-only",
@@ -32,7 +33,11 @@
     "commands": [
       {
         "command": "extension.checkComplexity",
-        "title": "Check Cognitive Complexity"
+        "title": "Check Cognitive Complexity for current file"
+      },
+      {
+        "command": "extension.deactivate",
+        "title": "Deactivate Cognitive Complexity Checker"
       }
     ],
     "keybindings": [
@@ -40,10 +45,15 @@
             "command": "extension.checkComplexity",
             "key": "ctrl+alt+0",
             "mac": "cmd+shift+0"
+        },
+        {
+          "command": "extension.deactivate",
+          "key": "ctrl+shift+9",
+          "mac": "cmd+shift+9"
         }
       ],
     "configuration": {
-      "title": "Cognitive Complexity",
+      "title": "Cognitive Complexity Checker",
       "properties": {
         "cognitiveComplexity.threshold": {
           "type": "number",
@@ -54,8 +64,7 @@
     }
   },
   "dependencies": {
-    "cognitive-complexity-ts": "^0.6.5",
-    "vscode": "^1.1.37"
+    "cognitive-complexity-ts": "^0.6.5"
   },
   "devDependencies": {
     "vscode": "^1.1.37"
