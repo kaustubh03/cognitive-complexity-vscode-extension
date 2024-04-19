@@ -1,6 +1,7 @@
 {
   "name": "cognitive-complexity-checker",
-  "version": "0.0.1",
+  "displayName":"Cognitive Complexity Checker",
+  "version": "0.0.2",
   "description": "A VSCode extension that calculates the cognitive complexity of a file",
   "main": "extension.js",
   "icon": "images/logo.png",
