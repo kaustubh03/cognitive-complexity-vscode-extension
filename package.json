@@ -4,6 +4,7 @@
   "description": "A VSCode extension that calculates the cognitive complexity of a file",
   "main": "extension.js",
   "icon": "images/logo.png",
+  "publisher": "kaustubhsaxena",
   "engines": {
     "vscode": "^1.80.1"
   },
