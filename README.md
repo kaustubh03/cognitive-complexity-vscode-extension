@@ -1,6 +1,8 @@
 # What it is?
 
-The Cognitive Complexity Checker is a Visual Studio Code (VSCode) extension that helps developers maintain the quality and readability of their codebase by highlighting functions with high cognitive complexity. Cognitive complexity is a measure of how "difficult" a function is to understand, and this extension provides visual cues and information to help developers identify and address areas of their code that may require refactoring or further optimization.
+The Cognitive Complexity Checker is a Visual Studio Code (VSCode) extension that helps developers maintain the quality and readability of their JS/TS codebase by highlighting functions with high cognitive complexity. Cognitive complexity is a measure of how "difficult" a function is to understand, and this extension provides visual cues and information to help developers identify and address areas of their code that may require refactoring or further optimization.
+
+<b>This extension only works with Javascript/Typescript projects.</b>
 
 ## Features:
 

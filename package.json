@@ -46,7 +46,7 @@
     "keybindings": [
         {
             "command": "extension.checkComplexity",
-            "key": "ctrl+alt+0",
+            "key": "ctrl+shift+0",
             "mac": "cmd+shift+0"
         },
         {
