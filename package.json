@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaustubh03/cognitive-complexity.git"
+    "url": "git+https://github.com/kaustubh03/cognitive-complexity-vscode-extension.git"
   },
   "keywords": [
     "vscode",
@@ -25,9 +25,9 @@
   "author": "Kaustubh Saxena",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/kaustubh03/cognitive-complexity/issues"
+    "url": "https://github.com/kaustubh03/cognitive-complexity-vscode-extension/issues"
   },
-  "homepage": "https://github.com/kaustubh03/cognitive-complexity#readme",
+  "homepage": "https://github.com/kaustubh03/cognitive-complexity-vscode-extension#readme",
   "activationEvents": [
     "onDidOpenTextDocument",
     "onDidSaveTextDocument"
