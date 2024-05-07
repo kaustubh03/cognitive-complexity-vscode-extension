@@ -5,13 +5,12 @@ let decorations = [];
 let subscriptions = [];
 
 function activate(context) {
-  let disposable = vscode.commands.registerCommand('extension.checkComplexity', function () {
+  let disposable = vscode.commands.registerCommand('extension.checkComplexity', function z() {
     const editor = vscode.window.activeTextEditor;
     if (!editor) {
       vscode.window.showErrorMessage('No active editor found.');
       return;
     }
-
 
    displayCognitiveComplexity(editor.document, editor)  
   });
@@ -26,6 +25,8 @@ function activate(context) {
     deactivateCommand
   );
 
+  
+  
   subscriptions.push(event1, event2);
 }
 
