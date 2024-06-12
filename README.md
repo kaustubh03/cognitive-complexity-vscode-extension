@@ -80,4 +80,10 @@ Create a custom scoring matrix which eliminates use of the npm package.
 
 Complexity Heatmap generator for the project for better visibility.
 
+![image](https://github.com/kaustubh03/cognitive-complexity-vscode-extension/assets/26454429/92b101a0-8e30-41f9-9966-e60121da3507)
+![image](https://github.com/kaustubh03/cognitive-complexity-vscode-extension/assets/26454429/76dce5c9-aafe-473a-a7fe-bdee8067b9e5)
+![image](https://github.com/kaustubh03/cognitive-complexity-vscode-extension/assets/26454429/3033fbe3-2884-4ca0-b227-cfe36bcd5283)
+
+
+
  
